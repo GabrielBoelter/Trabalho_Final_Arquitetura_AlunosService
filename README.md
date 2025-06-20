@@ -122,7 +122,7 @@ AlunosService/
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/SEU_USUARIO/academia-pagamentos-service.git
+   git clone https://github.com/GabrielBoelter/Trabalho_Final_Arquitetura_AlunosService
    ```
 
 2. Abra a solução no **Visual Studio 2022**.
@@ -143,9 +143,8 @@ AlunosService/
 
 ## 📂 Repositórios Relacionados
 
-- [`academia-alunos-service`](https://github.com/SEU_USUARIO/academia-alunos-service)
-- [`academia-treinos-service`](https://github.com/SEU_USUARIO/academia-treinos-service)
-- [`academia-pagamentos-service`](https://github.com/SEU_USUARIO/academia-pagamentos-service)
+- [`academia-treinos-service`](https://github.com/GabrielBoelter/Trabalho_Final_Arquitetura_TreinosService)
+- [`academia-pagamentos-service`](https://github.com/GabrielBoelter/Trabalho_Final_Arquitetura_PagamentosService)
 
 ---
 
