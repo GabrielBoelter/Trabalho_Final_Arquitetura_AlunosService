@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AlunosService</name>
+    </assembly>
+    <members>
+        <member name="M:AlunosService.Controllers.AlunosController.Criar(AlunosService.DTOs.AlunoCreateDTO)">
+            <summary>
+            Cria um novo aluno
+            </summary>
+            <param name="dto">Dados do aluno a ser criado</param>
+            <returns>O aluno criado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterTodos">
+            <summary>
+            Obtém todos os alunos
+            </summary>
+            <returns>Lista de alunos</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterPorId(System.Int32)">
+            <summary>
+            Obtém um aluno por ID
+            </summary>
+            <param name="id">ID do aluno</param>
+            <returns>O aluno encontrado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.Atualizar(System.Int32,AlunosService.DTOs.AlunoUpdateDTO)">
+            <summary>
+            Atualiza um aluno existente
+            </summary>
+            <param name="id">ID do aluno</param>
+            <param name="dto">Dados para atualização</param>
+            <returns>O aluno atualizado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.Deletar(System.Int32)">
+            <summary>
+            Deleta um aluno
+            </summary>
+            <param name="id">ID do aluno</param>
+            <returns>NoContent se sucesso</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.Buscar(System.String)">
+            <summary>
+            Busca alunos por termo
+            </summary>
+            <param name="termo">Termo de busca</param>
+            <returns>Lista de alunos encontrados</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterPorStatus(AlunosService.Models.StatusAluno)">
+            <summary>
+            Obtém alunos por status
+            </summary>
+            <param name="status">Status do aluno</param>
+            <returns>Lista de alunos com o status especificado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterPorEmail(System.String)">
+            <summary>
+            Obtém aluno por email
+            </summary>
+            <param name="email">Email do aluno</param>
+            <returns>O aluno encontrado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterPorCPF(System.String)">
+            <summary>
+            Obtém aluno por CPF
+            </summary>
+            <param name="cpf">CPF do aluno</param>
+            <returns>O aluno encontrado</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.ObterTotal">
+            <summary>
+            Obtém o total de alunos cadastrados
+            </summary>
+            <returns>Objeto com o total de alunos</returns>
+        </member>
+        <member name="M:AlunosService.Controllers.AlunosController.VerificarExistencia(System.Int32)">
+            <summary>
+            Verifica se um aluno existe
+            </summary>
+            <param name="id">ID do aluno</param>
+            <returns>200 se existe, 404 se não existe</returns>
+        </member>
+        <member name="T:AlunosService.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:AlunosService.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AlunosService.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:AlunosService.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
